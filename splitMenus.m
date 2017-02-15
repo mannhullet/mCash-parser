@@ -1,7 +1,7 @@
 function splitMenus()
 
-% [~, ~, raw] = xlsread('sales.xls');
-[~, ~, raw] = xlsread('vv5ngx-transactions-1475272800-1485903541.xls');
+[~, ~, raw] = xlsread('sales.xls');
+% [~, ~, raw] = xlsread('vv5ngx-transactions-1475272800-1485903541.xls');
 
 filename = 'menus.xls';
 num_rows = size(raw, 1);
